@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -121,4 +125,21 @@ footer a:hover {
   .btn {
     padding: 10px 18px;
   }
+}
+
+/*----NAV----*/
+
+nav {
+  margin-top: 25px
+}
+
+nav a {
+  margin-top: 0 15px;
+  color: #cbd5e1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:Lhover {
+  color: #3b82f6;
 }
