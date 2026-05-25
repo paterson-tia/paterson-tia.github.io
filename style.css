@@ -68,3 +68,19 @@ a:hover {
 .btn:hover {
   background: #2563eb;
 }
+
+/*----------Media Querry-----------------*/
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+     padding: 60px 15px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+}
