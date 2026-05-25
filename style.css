@@ -12,7 +12,7 @@ main {
   padding: 20px;
 }
 
-header {
+.hero {
   text-align: center;
   padding: 60px 20px;
   background: #020617;
@@ -96,7 +96,7 @@ footer {
 
 footer a {
   color: #3b82f6;
-  text_decoration: none;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -115,7 +115,7 @@ footer a:hover {
   }
 
   section {
-    padding: 30px 0;
+    padding: 30px 15px;
   }
 
   .btn {
