@@ -168,6 +168,7 @@ nav a:Lhover {
 .skill-card {
   /*width: calc(50% - 10px);*/ /*Force two cards per row on large screen*/
   background: #111827;
+  border: 1px solid #334155;
   padding: 20px;
   border-radius: 10px;
   flex: 1 1 250px;
