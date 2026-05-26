@@ -129,6 +129,11 @@ footer a:hover {
   nav {
     gap: 10px;
   }
+
+  /*Force one skill card per row on mobile
+  .skill-card {
+    width: 100%;*/
+  }
 }
 
 /*----Apply flexbox to NAV----*/
@@ -161,6 +166,7 @@ nav a:Lhover {
 }
 
 .skill-card {
+  /*width: calc(50% - 10px);*/ /*Force two cards per row on large screen*/
   background: #111827;
   padding: 20px;
   border-radius: 10px;
