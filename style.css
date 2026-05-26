@@ -131,7 +131,7 @@ footer a:hover {
   }
 }
 
-/*----NAV----*/
+/*----Apply flexbox to NAV----*/
 
 nav {
   display: flex;
@@ -150,4 +150,19 @@ nav {
 
 nav a:Lhover {
   color: #3b82f6;
+}
+
+/*----Apply flexbox to SKILLS----*/
+
+.skills-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
 }
