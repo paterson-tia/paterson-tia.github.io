@@ -183,6 +183,7 @@ nav a:hover {
 
 /*----Apply flexbox to EXPERIENCE----*/
 .exp-header {
+  background: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
