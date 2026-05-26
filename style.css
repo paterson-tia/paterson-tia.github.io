@@ -141,11 +141,7 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    align-text: 
-  }
-
-  .exp-header h3, .exp-header span {
-  text-align: left;
+    text-align: left;
   }
 }
 
