@@ -132,7 +132,14 @@ footer a:hover {
 
   /*Force one skill card per row on mobile
   .skill-card {
-    width: 100%;*/
+    width: 100%;
+  }*/
+
+  /*Experience flexbox on Mobile*/
+
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -173,3 +180,12 @@ nav a:Lhover {
   border-radius: 10px;
   flex: 1 1 250px;
 }
+
+/*----Apply flexbox to EXPERIENCE----*/
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
